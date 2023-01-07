@@ -1,19 +1,17 @@
-# Linear Regression-
-understanding and predicting the Laptop prices based on features 
+# Machine Learning Natural Language Processing
 
-As I am mostly focusing on coding and the data science technique to understand data and get most of it using Liner models as per my knowledge and understanding in this notebook. I have skip the theory part for the Liner Regression and it functioning which you will get plenty of theoretical material on internet.
-Following are the few articles which will help you to get basic understanding and theoretical concept about Liner Regression models 
+In this project I am going to Demonstrate and understand the Sentiment of different users about different USA airlines and how they react on twitter. This is best example airlines and can used to get feedback and issues from customers and understand their needs and issues.
+As always, I am mostly focusing on coding and the data science technique to understand data and get most of it using NLP models as per my knowledge and understanding in this notebook. I have skip the theory part for the NLP and it functioning which you will get plenty of theoretical material on internet.
+Following are the few articles which will help you to get basic understanding and theoretical concept about NLP and different technique.
+
 
 # Reference materials 
-- https://machinelearningmastery.com/linear-regression-for-machine-learning/
-- https://medium.com/analytics-vidhya/understanding-the-linear-regression-808c1f6941c0
-- https://medium.datadriveninvestor.com/basics-of-linear-regression-9b529aeaa0a5
-- https://www.simplilearn.com/tutorials/scikit-learn-tutorial/sklearn-linear-regression-with-examples
+- https://machinelearningmastery.com/natural-language-processing/
+- https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1
+- https://www.analyticsvidhya.com/blog/2022/01/nlp-tutorials-part-i-from-basics-to-advance/#:~:text=What%20is%20NLP%3F,questions%2C%20text%20summarization%2C%20etc.
 
-#Simple and short best video
-- https://www.youtube.com/watch?v=nk2CQITm_eo
-
-
+#Simple  best video
+- https://www.youtube.com/watch?v=IiD3YZkkCmE
 
 ## Context and Objective :
 
