@@ -13,54 +13,65 @@ Following are the few articles which will help you to get basic understanding an
 #Simple  best video
 - https://www.youtube.com/watch?v=IiD3YZkkCmE
 
-## Context and Objective :
 
-We have the data for the laptop seller having different types of laptop with their prices and specification. Dataset contains total 1303 observations. As a data scientist for a online publication company which focused on technology, our objective is to find the insight from the data provided , and help user or subscriber of the company to get informative visuals regarding laptop configuration and prices to improve customer experience also predict the laptop price with given specification by the User.
+# Summary :
+Provided dataset is the twitter data for the USA airlines.
+This data has so much inforamtion about the users their feedback and imotions and customer experience they have in conversations on social media platforms.
+This data become a key strategy in social media marketing ,feedback and customer experience for the airlines .
+Listening to how customers feel about the product/service on Twitter allows companies to understand their audience, keep on top of what’s being said about their brand and their competitors, and discover new trends in the industry.
+This data is scaped from feb-2015 for all US major airlines .
 
-## Data Dictionary :
+# Problem Stament :
+As Datascientist we have to undertand simplyfy the data ,preprocess the data .
+Find the insights from prepocess data towards Major airlines ,compair the data between them and orivide analysis on the data.
+Do the sentiment analysis on the data to find the user experience as positive, negative, and neutral tweets,
+Also categorizing negative reasons (such as "late flight" or "rude service" if any.
+Find the insights from data that will help Airlines to make customers experience better and improve any service based on analysis which will help to grow the business .
 
-Company: Laptop Manufacturer
+# Dataset:
+# The dataset has the following columns:
 
-Product: Brand and Model
-
-TypeName: Type (Notebook, Ultrabook, Gaming, etc.)
-
-Inches: Screen Size
-
-ScreenResolution: Screen Resolution
-
-Cpu: Central Processing Unit
-
-Ram: Laptop RAM
-
-Memory: Hard Disk / SSD Memory
-
-GPU: Graphics Processing Unit
-
-OpSys: Operating System
-
-Weight: Laptop Weight
-
-Price_euros: Price in euros
+- tweet_id
+- airline_sentiment
+- airline_sentiment_confidence
+- negativereason
+- negativereason_confidence
+- airline
+- airline_sentiment_gold
+- name
+- negativereason_gold
+- retweet_count
+- text
+- tweet_coord
+- tweet_created
+- tweet_location
+- user_timezone
 
 
 ## What Steps we are performing  to achive  above objective:
 
 1) Importing base packages.
 
-2) Data cleaning and summarization.
+2) Text preprocessing and Text cleaning.
+- Remove html tags.
+- Replace contractions in string.
+- Remove numbers.
+- Tokenization.
+- Remove Stopwords.
+- Lemmatized data.
+- We have used the NLTK library to tokenize words, remove stopwords and lemmatize the remaining words.
 
-3) Missing value treatment.
+3) Vectorization :
+- Using CountVectorizer.
+- Use TfidfVectorizer.
+- Apply count vectorizer
+- Tf-IDF vectorizer,
 
-4) Feature engineering and text Columns formatting.
+5) Hyper paramter tunning the model :
 
-6) Testing multiple regression models and choosing best one.
+6) Predicting test scores with different matrices.
 
-7) Hyper tuning for the model.
+7) Printing the important features for the prediction as per best model.
 
-8) Predicting test scores with different matrices.
-
-9) Printing the important features for the prediction as per best model.
-
-10) Conclusion.
+8) Conclusion.
 
